@@ -23,7 +23,7 @@ const App: React.FC = () => {
      <span className='heading'> TO DO's</span>
       <InputField todo = {todo} setTodo = {setTodo} handleAdd = {handleAdd} />  
       {/* The letter must start with capital. */}
-      <TodoList/>
+      <TodoList todos = {todos} setTodos = {setTodos}/>
     </div>
     </>
   );
